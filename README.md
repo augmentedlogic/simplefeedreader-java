@@ -27,6 +27,11 @@ SimpleFeedReader sfr = new SimpleFeedReader();
                     // alternatively, read the xml source from a local file
                     // feed = sfr.readSource("file://test.rss");
 
+                              // get the http status code
+                              System.out.println("Status Code: " + sfr.getStatusCode());
+                              // get the raw XML payload
+                              System.out.println(sfr.getPayload());
+
                     System.out.println(feed.getTitle());
 
                     for(FeedItem item: feed.getFeedItems()) {
