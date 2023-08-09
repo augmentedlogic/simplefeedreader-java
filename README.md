@@ -1,6 +1,6 @@
 # A simple to use feed reader library for java
 
-simplefeedreader is a simple to use java RSS and Atom feed reader library with no dependencies.
+simplefeedreader is a simple java RSS and Atom feed reader library with no dependencies.
 
 ## Usage
 
